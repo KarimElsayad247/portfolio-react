@@ -1,6 +1,12 @@
+import Hero from "./Components/Hero";
+import Projects from "./Components/Projects";
+
 function App() {
   return (
-      <h1>Hello world</h1>
+      <div className="app">
+        <Hero/>
+        <Projects/>
+      </div>
   );
 }
 
